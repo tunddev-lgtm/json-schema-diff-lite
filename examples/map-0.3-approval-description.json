@@ -1,0 +1,63 @@
+{
+  "@context": "https://mailschema.org/contexts/map-0.3.jsonld",
+  "@type": "MailAction",
+  "@id": "urn:uuid:271fd7fd-1cc1-5e04-a0a2-ebc61fa3347b",
+  "profile": "https://mailschema.org/profiles/map/0.3",
+  "type": {
+    "id": "https://mailschema.org/types/campaign-send-approval",
+    "version": "0.1",
+    "contractDigest": "sha-256:de3c88a0712adb1d0c6e82f437b825c83520d8e1c44c7b032a2cfcfe5ce55731"
+  },
+  "issuedAt": "2026-10-29T03:53:47Z",
+  "expiresAt": "2026-10-29T04:23:45Z",
+  "inLanguage": "en",
+  "service": {
+    "id": "https://api.nitrosend.com",
+    "tenant": "urn:nitrosend:brand:13919"
+  },
+  "recipient": "tund.dev@gmail.com",
+  "subject": {
+    "id": "https://api.nitrosend.com/v1/my/campaigns/15567",
+    "title": "Weekly TypeScript Pipeline Digest v2"
+  },
+  "terms": {
+    "id": "https://api.nitrosend.com/v1/my/map/approvals/500",
+    "version": "sha-256:5a8d474f1d0037eb21b85fd6e0161f8f621c658d06fe442bea4d0047147740fd"
+  },
+  "human": {
+    "url": "https://app.nitrosend.com/approve/500?account_id=13735&brand_id=13919"
+  },
+  "details": {
+    "summary": "nexus-run asked to send \"Weekly TypeScript Pipeline Digest v2\" to 1 recipient.",
+    "requester": "nexus-run",
+    "content": {
+      "id": "https://api.nitrosend.com/v1/my/templates/25365",
+      "revision": "2",
+      "digest": "sha-256:85856edfdf26316e67a920d1c3f03973a2d0a00391667a88449ba4430fd22807",
+      "title": "Weekly TypeScript Pipeline Digest v2"
+    },
+    "sender": {
+      "mailbox": "hello@nexusforgets.nitrosend.net",
+      "name": "NexusForge Labs",
+      "replyTo": "hello@nexusforgets.nitrosend.net"
+    },
+    "audience": {
+      "id": "urn:nitrosend:campaign-send:3439:audience",
+      "revision": "99274da1db602f7517d245285b5927871cb935e7ef4f39cc82ce2ba60e6b0209",
+      "count": 1,
+      "label": "1 contact list"
+    },
+    "schedule": {
+      "mode": "scheduled",
+      "at": "2026-10-29T04:23:45Z"
+    }
+  },
+  "operations": [
+    {
+      "id": "approve"
+    },
+    {
+      "id": "decline"
+    }
+  ]
+}
